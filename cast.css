@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+
+body {
+  margin: 5;
+  border: 5;
+  padding: 55px;
+}
+
+
+[hidden] {
+  display: none !important;
+}
+
+body {
+  --newtab-background-color: #000000;
+  --newtab-background-color-secondary: #FFF;
+  --newtab-text-primary-color: #ffffff;
+  --newtab-primary-action-background: #0061e0;
+  --newtab-text-secondary-color: color-mix(in srgb, var(--newtab-text-primary-color) 80%, transparent);
+}
+.discord {
+  display: flex;
+  margin-bottom: 10px;
+  color: rgb(55, 108, 255);
+}
+.rubie {
+  display: flex;
+  margin-bottom: 2px;
+  color: rgb(255, 0, 0);
+}
+.hide {
+  display: flex;
+  margin-bottom: 2px;
+  color: rgb(7, 7, 7);
+}
+.title {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+  padding: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li{
+  font-weight: normal;
+  color: #FFF;
+  padding: 2px;
+}
+table, th, td {
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+or {
+  color: rgb(255, 174, 0);
+}
+bl {
+  color: rgb(0, 195, 255);
+}
+.risk {
+  color: rgb(255, 196, 0);
+  border: 5px solid rgb(255, 0, 0);
+  padding: 10px;
+}
+.boror {
+  border: 3px solid rgb(255, 136, 0);
+}
+.borbl {
+  border: 3px solid rgb(0, 153, 255);
+}
+
+  
+body[lwt-newtab-brighttext] {
+  --newtab-background-color: #2B2A33;
+  --newtab-background-color-secondary: #42414d;
+  --newtab-text-primary-color: #fbfbfe;
+  --newtab-primary-action-background: #00ddff;
+}
+
+.icon {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  -moz-context-properties: fill;
+  display: inline-block;
+  color: var(--newtab-text-primary-color);
+  fill: currentColor;
+  height: 16px;
+  vertical-align: middle;
+  width: 16px;
+}
+.icon.icon-spacer {
+  margin-inline-end: 8px;
+}
+
+html {
+  height: 100%;
+}
+
+
+#root {
+  position: relative;
+}
+
+body {
+  background-color: var(--newtab-background-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  fill: var(--newtab-text-primary-color);
+}
